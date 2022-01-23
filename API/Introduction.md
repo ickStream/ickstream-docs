@@ -120,6 +120,7 @@ have done previous development on Squeezebox, here are some significant
 differences regarding responsibilities between the two platforms from a
 development perspective.
 
+| -------------------- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |                      | **ickStream platform**                                                                                  | **Squeezebox platform**                                                                                                                                  |
 | **Player discovery** | Each controller is responsible to keep track of available players on the network through the P2P module | LMS or mysqueezebox.com keeps track of the players which results in that in some apps you only see players which are connected to the current server. |
 | **Current playlist** | Each player is responsible for its current playlist | The current playlist is completely managed by the server (LMS or mysqueezebox.com) |+
